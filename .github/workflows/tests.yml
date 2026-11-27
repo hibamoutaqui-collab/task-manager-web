@@ -1,0 +1,11 @@
+﻿name: Tests
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Vérifier l'environnement
+        run: echo "Bonjour, ici la CI de Task Manager"
